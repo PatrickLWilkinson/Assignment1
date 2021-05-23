@@ -198,3 +198,5 @@ with open(output_path,"w",newline='') as output_file:
         output_writer.writerow(loan.values())
 
 print("Calculations completed")
+
+print("Modifying local file so I can test submitting via Git on bash command line.")
